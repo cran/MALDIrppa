@@ -1,8 +1,9 @@
 snrPeaks <- function(x){
 
-  if (any(inherits(x,"list") & inherits(x[[1]],"MassPeaks"))==FALSE) {
+  if (!isMassPeaksList(x)) {
     stop("x must be a list of MassPeaks class objects")
   }
   
-  lapply(x,function(x) x@snr)
+  lapply(x,function(x) snr(x))
+
 }

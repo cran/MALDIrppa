@@ -1,8 +1,15 @@
 countPeaks <- function(x){
-  
-  if (any(inherits(x,"list") & inherits(x[[1]],"MassPeaks"))==FALSE) {
-    stop("x must be a list of MassPeaks class objects")
+
+  if (!is.list(x)){
+    if (!isMassPeaks(x)){
+      stop("x must be a MassPeaks object")}
   }
   
-  unlist(lapply(x,function(x) length(mass(x))))
+  if (is.list(x)){
+    if (!isMassPeaksList(x)){
+      stop("x must be a list of MassPeaks objects")}
+  }
+  
+  lengths(x)
+  
 }
