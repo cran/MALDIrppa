@@ -54,15 +54,15 @@ int <- intensityMatrix(peaks)
 
 # Save resulting data in R format
 
+\dontrun{
 writeIntensity(int, filename = "MyintMatrix")
 writeMetadata(type, filename = "MyMetadata")
+}
 
 # Save resulting data in csv format
 
+\dontrun{
 writeIntensity(int, filename = "MyintMatrix", format = "csv")
 writeMetadata(type, filename = "MyMetadata", format = "csv")
 }
-% Add one or more standard keywords, see file 'KEYWORDS' in the
-% R documentation directory.
-\keyword{ ~kwd1 }
-\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line
+}
