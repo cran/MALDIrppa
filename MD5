@@ -1,6 +1,6 @@
-62a1b4ee68940db8c9bcff4815184d61 *DESCRIPTION
+934934dfcae66d496e1862db55fa5d45 *DESCRIPTION
 b5e6e822088d5032205f4110724d82b2 *NAMESPACE
-c137fb31c3acb0033ec921d8c075e4ac *NEWS
+5a9add6d310ca257be0085ed60f881b9 *NEWS
 f527dc5d472a70c99bd9745bceceb5f7 *R/adapt.out.R
 0ca014a21ea0ba4c8f0087410b61b01b *R/addMetadata.R
 54a72ddadc03576b774bc90b5a878c97 *R/alignPeaks.R
@@ -28,14 +28,14 @@ c8e0d0aca48867ee949710f25448e965 *R/summary.scSpectra.R
 be961e449ca8cab00cd3c15151e2da7c *R/wavSmoothing.R
 6b20f72b296014203107a97fb13b7de5 *R/writeIntensity.R
 ae504f5999ec9cf441978fc7da46b3ba *R/writeMetadata.R
-0a3389939e6b586205f0cf9fe8920b21 *README.md
+61c215741e09b08441d0910b906503a3 *README.md
 23648d1b505c1b3a198ea549e308afff *build/vignette.rds
 5167759ad1fa881db34775736c296f8b *data/spectra.rda
 9ca795dec4563d83911a27be079f93fb *data/type.rda
 949fd1c371682aa00c3e30f65c99a348 *inst/CITATION
 fa42c2bdbbf6bd7bfdbd84d29b963dbb *inst/doc/MALDIrppa_vignette.R
 736aaff1f4aca301b74e6cc779ab3141 *inst/doc/MALDIrppa_vignette.Rmd
-232d51ed67d6d33eec0e3010d3acf5c8 *inst/doc/MALDIrppa_vignette.html
+b31b1f1a6538b418ba9c0d703648e5ac *inst/doc/MALDIrppa_vignette.html
 0cc64890e9b6f8b1209b09d17fa79ebc *inst/include/fra_dim.h
 784814ea3ebeabe956005e51ad40bd25 *inst/include/fra_fdp.h
 f77f6b2ecade966fa1efc226540c0a7f *inst/include/fra_filt.h
@@ -116,7 +116,7 @@ e3e51cdc16796cf0502ba5cbfc595b8c *inst/include/wav_modw.h
 f1fd59c0dcf175c1d545e6af579df195 *inst/include/wav_type.h
 392b3c0d9905bacdac7ead33ce7d786b *inst/include/wav_var.h
 7ec7bd217128eda5e136899434556436 *inst/include/wav_wtmm.h
-b8db26d7db46e860f9a40762fc783100 *man/MALDIrppa-package.Rd
+7a8ec790524191a8b670d49d3f9774cb *man/MALDIrppa-package.Rd
 fc9b8a46388fadc77904012a8aac2e89 *man/addMetadata.Rd
 04fdf4ef26a97d52453ee8011fc24ddf *man/alignPeaks.Rd
 fd0ba2e2e7402de993a4cad69c6b6ac8 *man/countPeaks.Rd
@@ -215,7 +215,7 @@ fbc109356e1d5634afd8c18c45aca48c *src/wav_look.c
 caae40ce0c020742d79ec054fafb75b4 *src/wav_look.h
 04f8e34bafc00d29bba55d644214a031 *src/wav_math.c
 c42a5e198df7c292bde66eb1a11eeb73 *src/wav_math.h
-55d8b3f3b1fc6851a182f2ed5871d6ce *src/wav_modw.c
+9fb9b7eeb6550652b21d43b6d0dabe49 *src/wav_modw.c
 aabdae47765cfaac82966076cf40aa23 *src/wav_shrk.c
 9512aeb3e6302ace47e9332b640e0546 *src/wav_var.c
 a655ff99ed008b2893909268c8b06465 *src/wav_wtmm.c
