@@ -3,6 +3,9 @@
                            grid.lty, ...)
 {
   
+  opar <- par(no.readonly =TRUE)
+  on.exit(par(opar)) # Restore user's graphical settings  
+  
   if (barplot){
     zones <- matrix(c(2, 4, 1, 3), ncol = 2, byrow = TRUE)
     layout(zones, widths = c(5/5, 0/5), heights = c(0.75/5, 4.25/5))
@@ -32,4 +35,5 @@
     a <- barplot(as.vector(prop.col), axes = F, col = bar.col, xaxs = "i",
                  ylim = c(0, max(as.vector(prop.col)+0.2*max(as.vector(prop.col)))))
   }
+  
 } 
