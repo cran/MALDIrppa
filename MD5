@@ -1,4 +1,4 @@
-a84108d591cb62c3867bccc55fbcc279 *DESCRIPTION
+d33e205c25457d46fd4c33ecf83cb127 *DESCRIPTION
 143b13a06c941dedffc8bade83c70fb8 *NAMESPACE
 190a88e8d0e2546fc66609f423136c78 *NEWS
 f527dc5d472a70c99bd9745bceceb5f7 *R/adapt.out.R
@@ -35,11 +35,11 @@ ae504f5999ec9cf441978fc7da46b3ba *R/writeMetadata.R
 949fd1c371682aa00c3e30f65c99a348 *inst/CITATION
 8128c8f0adccbc905ad1bf72fb5e78e8 *inst/doc/MALDIrppa_vignette_v105.R
 6390db2a75516920105f86ead2883350 *inst/doc/MALDIrppa_vignette_v105.Rmd
-82f57e069438a0fbd186d560447dfe6b *inst/doc/MALDIrppa_vignette_v105.html
+f2b07549ed782d973b99038cd5651a2d *inst/doc/MALDIrppa_vignette_v105.html
 5f301f4427c5102614f7691c0d79a5d5 *inst/doc/MALDIrppa_vignette_v110.R
 1c2a639486d04adc0d0b1c4731ea54e6 *inst/doc/MALDIrppa_vignette_v110.Rmd
-a744de7add790e58bcadb01ae1644687 *inst/doc/MALDIrppa_vignette_v110.html
-d4ef84482fd7967422216fbf48e20a16 *man/MALDIrppa-package.Rd
+979e2a66c15e78e2d287e0a6cf8262c0 *inst/doc/MALDIrppa_vignette_v110.html
+eb1f3a27392aa37ccadf7a9c83390a37 *man/MALDIrppa-package.Rd
 fc9b8a46388fadc77904012a8aac2e89 *man/addMetadata.Rd
 04fdf4ef26a97d52453ee8011fc24ddf *man/alignPeaks.Rd
 fd0ba2e2e7402de993a4cad69c6b6ac8 *man/countPeaks.Rd
