@@ -1,7 +1,7 @@
 Package: MALDIrppa
 Type: Package
 Title: MALDI Mass Spectrometry Data Robust Pre-Processing and Analysis
-Version: 1.1.0-1
+Version: 1.1.0-2
 Authors@R: 
     c(person(given = "Javier",
              family = "Palarea-Albaladejo",
@@ -14,7 +14,7 @@ Authors@R:
              email = "paolo.ribeca@bioss.ac.uk",
              comment = c(ORCID = "0000-0001-5599-3933"))
              )
-Date: 2022-03-26
+Date: 2024-01-23
 Maintainer: Javier Palarea-Albaladejo <javier.palarea@udg.edu>
 Depends: R (>= 3.2.5), MALDIquant, signal, robustbase, lattice,
         waveslim
@@ -27,8 +27,8 @@ VignetteBuilder: knitr
 URL: https://github.com/Japal/MALDIrppa
 BugReports: https://github.com/Japal/MALDIrppa/issues
 NeedsCompilation: no
-Packaged: 2022-03-26 18:16:08 UTC; Japal
+Packaged: 2024-01-23 16:12:30 UTC; Japal
 Author: Javier Palarea-Albaladejo [cre, aut]
     (<https://orcid.org/0000-0003-0162-669X>),
   Paolo Ribeca [ctb] (<https://orcid.org/0000-0001-5599-3933>)
-Date/Publication: 2022-03-29 00:10:11 UTC
+Date/Publication: 2024-01-25 17:30:06 UTC
